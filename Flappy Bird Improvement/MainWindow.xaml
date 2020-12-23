@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Flappy_Bird_Improvement"
         mc:Ignorable="d"
-        Title="Flappy Bird Game in WPF" Height="490" Width="525">
-    <Canvas Name="MyCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsup" Background="LightBlue">
+        Title="Flappy Bird Game in WPF" Height="490" Width="525" MinWidth="517" MinHeight="459" MaxHeight="459" MaxWidth="517">
+    <Canvas Name="MyCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsup" Background="LightBlue" MinWidth="517" MinHeight="459" MaxHeight="459" MaxWidth="517">
 
         <Image Height="144" Width="200" Source="images/clouds.png" Canvas.Left="54" Canvas.Top="200" Tag="clouds" />
         <Image Height="144" Width="200" Source="images/clouds2.png" Canvas.Left="278" Canvas.Top="200" Tag="clouds" />

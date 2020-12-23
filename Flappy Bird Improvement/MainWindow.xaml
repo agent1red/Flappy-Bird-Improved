@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Flappy_Bird_Improvement"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Flappy Bird Game in WPF" Height="490" Width="525">
+    <Canvas Name="MyCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsup" Background="LightBlue">
+
+        <Image Height="144" Width="200" Source="images/clouds.png" Canvas.Left="54" Canvas.Top="200" Tag="clouds" />
+        <Image Height="144" Width="200" Source="images/clouds2.png" Canvas.Left="278" Canvas.Top="200" Tag="clouds" />
+
+        <Image Height="390" Width="66" Source="images/pipeBottom.png" Canvas.Left="106" Canvas.Top="220" Tag="obs1" />
+        <Image Height="390" Width="66" Source="images/pipeTop.png" Canvas.Left="106" Canvas.Top="-268" Tag="obs1" />
+
+        <Image Height="390" Width="66" Source="images/pipeBottom.png" Canvas.Left="412" Canvas.Top="286" Tag="obs2" />
+        <Image Height="390" Width="66" Source="images/pipeTop.png" Canvas.Left="412" Canvas.Top="-242" Tag="obs2" />
+
+        <Image Height="390" Width="66" Source="images/pipeBottom.png" Canvas.Left="259" Canvas.Top="344" Tag="obs3" />
+        <Image Height="390" Width="66" Source="images/pipeTop.png" Canvas.Left="259" Canvas.Top="-172" Tag="obs3" />
+
+
+        <Label Name="txtScore" FontSize="22" FontWeight="ExtraBold" Content="Score: 0"/>
+        <Image Name="flappyBird" Height="36" Width="50" Source="images/flappyBird.png" Stretch="Fill" Canvas.Left="24" Canvas.Top="182"/>
+
+    </Canvas>
 </Window>

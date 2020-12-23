@@ -102,5 +102,15 @@
     <Resource Include="images\pipeBottom.png" />
     <Resource Include="images\pipeTop.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sound\arcade-music-loop.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\sfx_die.wav" />
+    <Content Include="Sound\sfx_hit.wav" />
+    <Content Include="Sound\sfx_point.wav" />
+    <Content Include="Sound\sfx_swooshing.wav" />
+    <Content Include="Sound\sfx_wing.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

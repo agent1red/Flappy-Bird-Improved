@@ -11,6 +11,13 @@ in WinForms as I was able to reference each object Image and loop through them w
 
 # Completed Project
 
-Here is a gif of the game running: 
+Here is a gif of the game running. There is audio sound effects and background music. If you want to experience that then 
+you can can clone or fork my repo. 
 
 ![](flappyBird.gif)
+
+
+Here is the older one that was my first attempt with WinForms. You can see the difference in technology. Here I was having  
+a harder time with the Image objects on the screen. I only had background music playing and no sound effects. 
+
+![](flappyBirdOld.gif)
